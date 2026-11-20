@@ -1,0 +1,5 @@
+@import './App.css';
+
+.btn-primary, .btn-secondary, .btn-success, .btn-danger { border: 0; }
+.btn-secondary { border: 1px solid var(--line); }
+::selection { color: #103b30; background: #bce7d1; }

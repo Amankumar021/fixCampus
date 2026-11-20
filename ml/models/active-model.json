@@ -1,0 +1,7 @@
+{
+  "selected_model": "linear_svc_char",
+  "evaluation_report": "evaluation-20261119T193117Z.json",
+  "artifact": "campusfix-linear_svc_char-20261119T193117Z.joblib",
+  "model_version": "20261119T193117Z",
+  "sha256": "1c14932a4036efe221b9905f7513ea28ce94ff3a5262d31a37de81f8b579a5aa"
+}

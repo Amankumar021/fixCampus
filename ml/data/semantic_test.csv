@@ -1,0 +1,38 @@
+
+complaint,actual_category
+"The room remains hot even though the air conditioner is running",Electrical
+"The AC is blowing warm air instead of cold air",Electrical
+"Electricity keeps going off in the classroom",Electrical
+"The ceiling fan makes a strange noise",Electrical
+"Students cannot access the campus wireless network",IT
+"The computer laboratory systems are freezing",IT
+"The college portal refuses to load",IT
+"The projector does not display the laptop screen",IT
+"Water is dripping underneath the bathroom sink",Plumbing
+"The tap continues running even after being closed",Plumbing
+"Water supply has stopped in the hostel",Plumbing
+"The drainage pipe is overflowing",Plumbing
+"Garbage has been lying outside the classroom for days",Cleanliness
+"The corridor floor is covered in dust",Cleanliness
+"Nobody has emptied the waste bins",Cleanliness
+"The classroom smells because it has not been cleaned",Cleanliness
+"An unknown individual is entering the hostel without permission",Security
+"There is no guard monitoring the main entrance",Security
+"The surveillance camera near the gate is broken",Security
+"Someone has stolen a student's belongings",Security
+"Students have nowhere to sit because the benches are damaged",Furniture
+"The legs of the classroom table are broken",Furniture
+"The library chairs are uncomfortable and damaged",Furniture
+"The classroom desk is unstable",Furniture
+"Large cracks have appeared in the building walls",Civil Maintenance
+"Rainwater is entering through the damaged roof",Civil Maintenance
+"The staircase tiles are coming loose",Civil Maintenance
+"The classroom door frame is damaged",Civil Maintenance
+"The washroom has a very unpleasant smell",Sanitation
+"The toilets are unhygienic and need attention",Sanitation
+"The sewage system is blocked",Sanitation
+"The bathroom has not been sanitized properly",Sanitation
+"The food served in the canteen tastes stale",Cafeteria
+"Students are unable to purchase meals because the canteen is shut",Cafeteria
+"The cafeteria charges excessive prices for food",Cafeteria
+"The canteen staff are not maintaining food hygiene",Cafeteria

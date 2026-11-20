@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+venv/
+node_modules/
+frontend/dist/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/uploads/
+uploads/
+*.sqlite-wal
+*.sqlite-shm

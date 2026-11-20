@@ -1,0 +1,243 @@
+{
+  "cases": 22,
+  "known_category_cases": 19,
+  "known_category_accuracy": 0.8947368421052632,
+  "known_category_macro_f1": 0.8133333333333332,
+  "unknown_case_predictions": [
+    "Cleanliness",
+    "Security",
+    "Other"
+  ],
+  "classification_report": {
+    "Cafeteria": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Civil Maintenance": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Cleanliness": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "Electrical": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "Furniture": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "IT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "Other": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4,
+      "support": 3.0
+    },
+    "Plumbing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Sanitation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Security": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "accuracy": 0.8181818181818182,
+    "macro avg": {
+      "precision": 0.8333333333333333,
+      "recall": 0.8333333333333333,
+      "f1-score": 0.8166666666666667,
+      "support": 22.0
+    },
+    "weighted avg": {
+      "precision": 0.8257575757575757,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.8060606060606061,
+      "support": 22.0
+    }
+  },
+  "predictions": [
+    {
+      "complaint": "The wifi keeps disconnecting in the library",
+      "expected": "IT",
+      "predicted": "IT",
+      "confidence_signal": 0.9532,
+      "correct": true
+    },
+    {
+      "complaint": "WiFi is not conecting in our library",
+      "expected": "IT",
+      "predicted": "IT",
+      "confidence_signal": 0.9607,
+      "correct": true
+    },
+    {
+      "complaint": "No network access in the computer lab",
+      "expected": "IT",
+      "predicted": "IT",
+      "confidence_signal": 0.6573,
+      "correct": true
+    },
+    {
+      "complaint": "Water is leaking under the sink",
+      "expected": "Plumbing",
+      "predicted": "Plumbing",
+      "confidence_signal": 0.992,
+      "correct": true
+    },
+    {
+      "complaint": "The basin tap drips all night",
+      "expected": "Plumbing",
+      "predicted": "Plumbing",
+      "confidence_signal": 0.8363,
+      "correct": true
+    },
+    {
+      "complaint": "The bathroom toilet is blocked",
+      "expected": "Sanitation",
+      "predicted": "Sanitation",
+      "confidence_signal": 0.9531,
+      "correct": true
+    },
+    {
+      "complaint": "Washroom has an unpleasant sewage smell",
+      "expected": "Sanitation",
+      "predicted": "Sanitation",
+      "confidence_signal": 0.988,
+      "correct": true
+    },
+    {
+      "complaint": "The classroom fan stopped working",
+      "expected": "Electrical",
+      "predicted": "Electrical",
+      "confidence_signal": 0.9121,
+      "correct": true
+    },
+    {
+      "complaint": "The air conditioner blows warm air",
+      "expected": "Electrical",
+      "predicted": "Electrical",
+      "confidence_signal": 0.966,
+      "correct": true
+    },
+    {
+      "complaint": "Several chairs have broken legs",
+      "expected": "Furniture",
+      "predicted": "Furniture",
+      "confidence_signal": 0.9553,
+      "correct": true
+    },
+    {
+      "complaint": "A desk is unstable and wobbles",
+      "expected": "Furniture",
+      "predicted": "Furniture",
+      "confidence_signal": 0.9863,
+      "correct": true
+    },
+    {
+      "complaint": "There is a crack in the classroom ceiling",
+      "expected": "Civil Maintenance",
+      "predicted": "Civil Maintenance",
+      "confidence_signal": 0.7242,
+      "correct": true
+    },
+    {
+      "complaint": "The corridor wall plaster is falling",
+      "expected": "Civil Maintenance",
+      "predicted": "Other",
+      "confidence_signal": 0.5769,
+      "correct": false
+    },
+    {
+      "complaint": "Trash bins have not been emptied",
+      "expected": "Cleanliness",
+      "predicted": "Cleanliness",
+      "confidence_signal": 0.6491,
+      "correct": true
+    },
+    {
+      "complaint": "Classroom floor is dusty and dirty",
+      "expected": "Cleanliness",
+      "predicted": "Cleanliness",
+      "confidence_signal": 0.9626,
+      "correct": true
+    },
+    {
+      "complaint": "The gate has no security guard",
+      "expected": "Security",
+      "predicted": "Security",
+      "confidence_signal": 0.9851,
+      "correct": true
+    },
+    {
+      "complaint": "Someone stole a bicycle from campus",
+      "expected": "Security",
+      "predicted": "Electrical",
+      "confidence_signal": 0.6131,
+      "correct": false
+    },
+    {
+      "complaint": "The canteen food was stale",
+      "expected": "Cafeteria",
+      "predicted": "Cafeteria",
+      "confidence_signal": 0.9942,
+      "correct": true
+    },
+    {
+      "complaint": "Cafeteria service is too slow",
+      "expected": "Cafeteria",
+      "predicted": "Cafeteria",
+      "confidence_signal": 0.6204,
+      "correct": true
+    },
+    {
+      "complaint": "Need help choosing classes for next term",
+      "expected": "Other",
+      "predicted": "Cleanliness",
+      "confidence_signal": 0.6594,
+      "correct": false
+    },
+    {
+      "complaint": "I forgot my personal email password",
+      "expected": "Other",
+      "predicted": "Security",
+      "confidence_signal": 0.7111,
+      "correct": false
+    },
+    {
+      "complaint": "Please tell me the exam timetable",
+      "expected": "Other",
+      "predicted": "Other",
+      "confidence_signal": 0.6105,
+      "correct": true
+    }
+  ],
+  "limitations": "Small manually written diagnostic set; not a real-world accuracy estimate."
+}

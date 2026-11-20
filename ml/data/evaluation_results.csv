@@ -1,0 +1,37 @@
+complaint,actual_category,predicted_category,correct
+The room remains hot even though the air conditioner is running,Electrical,Electrical,True
+The AC is blowing warm air instead of cold air,Electrical,Electrical,True
+Electricity keeps going off in the classroom,Electrical,Electrical,True
+The ceiling fan makes a strange noise,Electrical,Electrical,True
+Students cannot access the campus wireless network,IT,IT,True
+The computer laboratory systems are freezing,IT,IT,True
+The college portal refuses to load,IT,IT,True
+The projector does not display the laptop screen,IT,IT,True
+Water is dripping underneath the bathroom sink,Plumbing,Plumbing,True
+The tap continues running even after being closed,Plumbing,Plumbing,True
+Water supply has stopped in the hostel,Plumbing,Plumbing,True
+The drainage pipe is overflowing,Plumbing,Plumbing,True
+Garbage has been lying outside the classroom for days,Cleanliness,Cleanliness,True
+The corridor floor is covered in dust,Cleanliness,Cleanliness,True
+Nobody has emptied the waste bins,Cleanliness,Cleanliness,True
+The classroom smells because it has not been cleaned,Cleanliness,Cleanliness,True
+An unknown individual is entering the hostel without permission,Security,Security,True
+There is no guard monitoring the main entrance,Security,Security,True
+The surveillance camera near the gate is broken,Security,Security,True
+Someone has stolen a student's belongings,Security,Security,True
+Students have nowhere to sit because the benches are damaged,Furniture,Furniture,True
+The legs of the classroom table are broken,Furniture,Furniture,True
+The library chairs are uncomfortable and damaged,Furniture,Furniture,True
+The classroom desk is unstable,Furniture,Furniture,True
+Large cracks have appeared in the building walls,Civil Maintenance,Civil Maintenance,True
+Rainwater is entering through the damaged roof,Civil Maintenance,Civil Maintenance,True
+The staircase tiles are coming loose,Civil Maintenance,Civil Maintenance,True
+The classroom door frame is damaged,Civil Maintenance,Civil Maintenance,True
+The washroom has a very unpleasant smell,Sanitation,Sanitation,True
+The toilets are unhygienic and need attention,Sanitation,Sanitation,True
+The sewage system is blocked,Sanitation,Sanitation,True
+The bathroom has not been sanitized properly,Sanitation,Sanitation,True
+The food served in the canteen tastes stale,Cafeteria,Cafeteria,True
+Students are unable to purchase meals because the canteen is shut,Cafeteria,Cafeteria,True
+The cafeteria charges excessive prices for food,Cafeteria,Cafeteria,True
+The canteen staff are not maintaining food hygiene,Cafeteria,Cafeteria,True

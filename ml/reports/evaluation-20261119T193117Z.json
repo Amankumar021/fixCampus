@@ -1,0 +1,320 @@
+{
+  "model_version": "20261119T193117Z",
+  "selected_model": "linear_svc_char",
+  "dataset": "ml\\data\\campusfix_complaints_large.csv",
+  "dataset_sha256": "7402f7c4d02918b9e1712922e00af6d8bb4ad3bff0f9b18f423436b0359273ce",
+  "rows_after_exact_deduplication": 10430,
+  "classes": [
+    "Cafeteria",
+    "Civil Maintenance",
+    "Cleanliness",
+    "Electrical",
+    "Furniture",
+    "IT",
+    "Plumbing",
+    "Sanitation",
+    "Security"
+  ],
+  "train_rows": 8234,
+  "test_rows": 2196,
+  "split_strategy": "GroupShuffleSplit grouped by issue_template",
+  "random_state": 42,
+  "metrics": {
+    "linear_svc_word": {
+      "accuracy": 0.5182149362477231,
+      "macro_f1": 0.5063837515598993,
+      "weighted_f1": 0.48089135509425407,
+      "classification_report": {
+        "Cafeteria": {
+          "precision": 0.5551330798479087,
+          "recall": 1.0,
+          "f1-score": 0.7139364303178484,
+          "support": 146.0
+        },
+        "Civil Maintenance": {
+          "precision": 1.0,
+          "recall": 0.0017543859649122807,
+          "f1-score": 0.0035026269702276708,
+          "support": 570.0
+        },
+        "Cleanliness": {
+          "precision": 0.6936026936026936,
+          "recall": 0.5971014492753624,
+          "f1-score": 0.6417445482866043,
+          "support": 345.0
+        },
+        "Electrical": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 208.0
+        },
+        "Furniture": {
+          "precision": 0.3130699088145897,
+          "recall": 1.0,
+          "f1-score": 0.47685185185185186,
+          "support": 103.0
+        },
+        "IT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Plumbing": {
+          "precision": 0.4745417515274949,
+          "recall": 0.6695402298850575,
+          "f1-score": 0.5554231227651967,
+          "support": 348.0
+        },
+        "Sanitation": {
+          "precision": 0.5168067226890757,
+          "recall": 0.5256410256410257,
+          "f1-score": 0.5211864406779662,
+          "support": 234.0
+        },
+        "Security": {
+          "precision": 0.9516129032258065,
+          "recall": 0.48760330578512395,
+          "f1-score": 0.644808743169399,
+          "support": 242.0
+        },
+        "accuracy": 0.5182149362477231,
+        "macro avg": {
+          "precision": 0.611640784411952,
+          "recall": 0.5868489329501646,
+          "f1-score": 0.5063837515598993,
+          "support": 2196.0
+        },
+        "weighted avg": {
+          "precision": 0.7499782262204389,
+          "recall": 0.5182149362477231,
+          "f1-score": 0.48089135509425407,
+          "support": 2196.0
+        }
+      }
+    },
+    "linear_svc_char": {
+      "accuracy": 0.6238615664845173,
+      "macro_f1": 0.6532337028692288,
+      "weighted_f1": 0.6214022053110847,
+      "classification_report": {
+        "Cafeteria": {
+          "precision": 0.9864864864864865,
+          "recall": 1.0,
+          "f1-score": 0.9931972789115646,
+          "support": 146.0
+        },
+        "Civil Maintenance": {
+          "precision": 1.0,
+          "recall": 0.40350877192982454,
+          "f1-score": 0.575,
+          "support": 570.0
+        },
+        "Cleanliness": {
+          "precision": 0.653125,
+          "recall": 0.6057971014492753,
+          "f1-score": 0.6285714285714286,
+          "support": 345.0
+        },
+        "Electrical": {
+          "precision": 0.47380410022779046,
+          "recall": 1.0,
+          "f1-score": 0.642967542503864,
+          "support": 208.0
+        },
+        "Furniture": {
+          "precision": 0.4858490566037736,
+          "recall": 1.0,
+          "f1-score": 0.653968253968254,
+          "support": 103.0
+        },
+        "Plumbing": {
+          "precision": 0.4745417515274949,
+          "recall": 0.6695402298850575,
+          "f1-score": 0.5554231227651967,
+          "support": 348.0
+        },
+        "Sanitation": {
+          "precision": 0.5168067226890757,
+          "recall": 0.5256410256410257,
+          "f1-score": 0.5211864406779662,
+          "support": 234.0
+        },
+        "Security": {
+          "precision": 1.0,
+          "recall": 0.48760330578512395,
+          "f1-score": 0.6555555555555556,
+          "support": 242.0
+        },
+        "accuracy": 0.6238615664845173,
+        "macro avg": {
+          "precision": 0.6988266396918277,
+          "recall": 0.7115113043362884,
+          "f1-score": 0.6532337028692288,
+          "support": 2196.0
+        },
+        "weighted avg": {
+          "precision": 0.7358935156399856,
+          "recall": 0.6238615664845173,
+          "f1-score": 0.6214022053110847,
+          "support": 2196.0
+        }
+      }
+    },
+    "logistic_regression": {
+      "accuracy": 0.5163934426229508,
+      "macro_f1": 0.5084846524825753,
+      "weighted_f1": 0.48986059269823784,
+      "classification_report": {
+        "Cafeteria": {
+          "precision": 0.5367647058823529,
+          "recall": 1.0,
+          "f1-score": 0.6985645933014354,
+          "support": 146.0
+        },
+        "Civil Maintenance": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 570.0
+        },
+        "Cleanliness": {
+          "precision": 0.7328519855595668,
+          "recall": 0.5884057971014492,
+          "f1-score": 0.6527331189710611,
+          "support": 345.0
+        },
+        "Electrical": {
+          "precision": 0.9244444444444444,
+          "recall": 1.0,
+          "f1-score": 0.9607390300230947,
+          "support": 208.0
+        },
+        "Furniture": {
+          "precision": 0.2340909090909091,
+          "recall": 1.0,
+          "f1-score": 0.37937384898710863,
+          "support": 103.0
+        },
+        "IT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Plumbing": {
+          "precision": 0.4745417515274949,
+          "recall": 0.6695402298850575,
+          "f1-score": 0.5554231227651967,
+          "support": 348.0
+        },
+        "Sanitation": {
+          "precision": 0.9389312977099237,
+          "recall": 0.5256410256410257,
+          "f1-score": 0.673972602739726,
+          "support": 234.0
+        },
+        "Security": {
+          "precision": 1.0,
+          "recall": 0.48760330578512395,
+          "f1-score": 0.6555555555555556,
+          "support": 242.0
+        },
+        "accuracy": 0.5163934426229508,
+        "macro avg": {
+          "precision": 0.5379583438016324,
+          "recall": 0.5856878176014063,
+          "f1-score": 0.5084846524825753,
+          "support": 2196.0
+        },
+        "weighted avg": {
+          "precision": 0.5348123148239401,
+          "recall": 0.5163934426229508,
+          "f1-score": 0.48986059269823784,
+          "support": 2196.0
+        }
+      }
+    },
+    "multinomial_nb": {
+      "accuracy": 0.4157559198542805,
+      "macro_f1": 0.42218736562881326,
+      "weighted_f1": 0.4050956875967722,
+      "classification_report": {
+        "Cafeteria": {
+          "precision": 0.43612334801762115,
+          "recall": 0.678082191780822,
+          "f1-score": 0.5308310991957105,
+          "support": 146.0
+        },
+        "Civil Maintenance": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 570.0
+        },
+        "Cleanliness": {
+          "precision": 0.9225806451612903,
+          "recall": 0.4144927536231884,
+          "f1-score": 0.572,
+          "support": 345.0
+        },
+        "Electrical": {
+          "precision": 0.8188976377952756,
+          "recall": 1.0,
+          "f1-score": 0.9004329004329005,
+          "support": 208.0
+        },
+        "Furniture": {
+          "precision": 0.1900369003690037,
+          "recall": 1.0,
+          "f1-score": 0.31937984496124033,
+          "support": 103.0
+        },
+        "IT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "Plumbing": {
+          "precision": 0.43911439114391143,
+          "recall": 0.34195402298850575,
+          "f1-score": 0.38449111470113084,
+          "support": 348.0
+        },
+        "Sanitation": {
+          "precision": 0.4006514657980456,
+          "recall": 0.5256410256410257,
+          "f1-score": 0.45471349353049906,
+          "support": 234.0
+        },
+        "Security": {
+          "precision": 0.921875,
+          "recall": 0.48760330578512395,
+          "f1-score": 0.6378378378378379,
+          "support": 242.0
+        },
+        "accuracy": 0.4157559198542805,
+        "macro avg": {
+          "precision": 0.45880882092057207,
+          "recall": 0.4941970333131851,
+          "f1-score": 0.42218736562881326,
+          "support": 2196.0
+        },
+        "weighted avg": {
+          "precision": 0.47428362564001203,
+          "recall": 0.4157559198542805,
+          "f1-score": 0.4050956875967722,
+          "support": 2196.0
+        }
+      }
+    }
+  },
+  "artifact": "ml\\models\\campusfix-linear_svc_char-20261119T193117Z.joblib",
+  "trained_at_utc": "2026-11-19T19:31:17.998846+00:00",
+  "limitations": [
+    "The source dataset may contain synthetic templated examples; this score is not a real-world performance estimate.",
+    "Collect a human-labeled campus dataset for deployment acceptance and ongoing monitoring."
+  ]
+}
